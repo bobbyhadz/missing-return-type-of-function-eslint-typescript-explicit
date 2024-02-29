@@ -2,6 +2,14 @@ export { };
 
 // Missing return type on function TypeScript ESLint error
 
+// EXAMPLE 0 - Simply typing the function
+
+function example(): void {
+  console.log('bobbyadz.com');
+}
+
+example()
+
 // EXAMPLE 1 - Exaplicitly setting a function's return type
 
 // 👇️ arrow function that returns a string
@@ -45,12 +53,12 @@ class Example {
 
 // ---------------------------------------------------
 
-// EXAMPLE 2 - Disabling the `@typescript-eslint/explicit-function-return-type` rule for a single line
+// // EXAMPLE 2 - Disabling the `@typescript-eslint/explicit-function-return-type` rule for a single line
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-const example = () => {
-  return 'bobbyhadz.com';
-};
+// // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+// const example = () => {
+//   return 'bobbyhadz.com';
+// };
 
 // ---------------------------------------------------
 
